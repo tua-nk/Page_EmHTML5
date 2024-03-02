@@ -51,6 +51,7 @@ Module['launchFileDialog'] = launchFileDialog;
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
+// include: C:\Users\tua.nk\AppData\Local\Temp\tmpef60r0ze.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -227,21 +228,26 @@ Module['FS_createPath']("/", "shader", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/resources/textures/WpTexImage_Heart.png", "start": 0, "end": 637237}, {"filename": "/resources/textures/WpTexImage_Pencil.jpg", "start": 637237, "end": 2974771}, {"filename": "/resources/textures/WpTexImage_Sea.jpg", "start": 2974771, "end": 3161219}, {"filename": "/shader/2.2.light_cube.fs", "start": 3161219, "end": 3161322}, {"filename": "/shader/2.2.light_cube.vs", "start": 3161322, "end": 3161508}, {"filename": "/shader/WpGl2DBasicP.fs", "start": 3161508, "end": 3162614}, {"filename": "/shader/WpGl2DBasicP.vs", "start": 3162614, "end": 3163054}, {"filename": "/shader/WpGl2DBasicPC.fs", "start": 3163054, "end": 3164164}, {"filename": "/shader/WpGl2DBasicPC.vs", "start": 3164164, "end": 3164604}, {"filename": "/shader/WpGl2DBasicPQ.fs", "start": 3164604, "end": 3165710}, {"filename": "/shader/WpGl2DBasicPQ.vs", "start": 3165710, "end": 3166150}, {"filename": "/shader/WpGl2DBasicPS.fs", "start": 3166150, "end": 3167256}, {"filename": "/shader/WpGl2DBasicPS.vs", "start": 3167256, "end": 3167745}, {"filename": "/shader/WpGl2DFull.fs", "start": 3167745, "end": 3168863}, {"filename": "/shader/WpGl2DFull.vs", "start": 3168863, "end": 3169207}, {"filename": "/shader/WpGl3DBasic.fs", "start": 3169207, "end": 3170222}, {"filename": "/shader/WpGl3DBasic.vs", "start": 3170222, "end": 3170834}, {"filename": "/shader/WpGl3DFullA.fs", "start": 3170834, "end": 3171861}, {"filename": "/shader/WpGl3DFullA.vs", "start": 3171861, "end": 3172473}, {"filename": "/shader/WpGl3DFullB.fs", "start": 3172473, "end": 3173486}, {"filename": "/shader/WpGl3DFullB.vs", "start": 3173486, "end": 3173947}, {"filename": "/shader/WpGlBlur.fs", "start": 3173947, "end": 3175111}, {"filename": "/shader/WpGlBlur.vs", "start": 3175111, "end": 3175298}, {"filename": "/shader/WpGlLinePC.fs", "start": 3175298, "end": 3176404}, {"filename": "/shader/WpGlLinePC.vs", "start": 3176404, "end": 3176896}, {"filename": "/shader/WpGlLinePL.fs", "start": 3176896, "end": 3178002}, {"filename": "/shader/WpGlLinePL.vs", "start": 3178002, "end": 3178431}, {"filename": "/shader/WpGlLinePP.fs", "start": 3178431, "end": 3179537}, {"filename": "/shader/WpGlLinePP.vs", "start": 3179537, "end": 3179966}, {"filename": "/shader/WpGlRotCube.fs", "start": 3179966, "end": 3180047}, {"filename": "/shader/WpGlRotCube.vs", "start": 3180047, "end": 3180313}, {"filename": "/shader/WpGlTexQuad.fs", "start": 3180313, "end": 3181508}, {"filename": "/shader/WpGlTexQuad.vs", "start": 3181508, "end": 3181864}], "remote_package_size": 3181864});
+    loadPackage({"files": [{"filename": "/resources/textures/WpTexImage_Heart.png", "start": 0, "end": 637237}, {"filename": "/resources/textures/WpTexImage_Pencil.jpg", "start": 637237, "end": 2974771}, {"filename": "/resources/textures/WpTexImage_Sea.jpg", "start": 2974771, "end": 3161219}, {"filename": "/shader/2.2.light_cube.fs", "start": 3161219, "end": 3161322}, {"filename": "/shader/2.2.light_cube.vs", "start": 3161322, "end": 3161508}, {"filename": "/shader/WpGl2DBasicP.fs", "start": 3161508, "end": 3162614}, {"filename": "/shader/WpGl2DBasicP.vs", "start": 3162614, "end": 3163054}, {"filename": "/shader/WpGl2DBasicPC.fs", "start": 3163054, "end": 3164164}, {"filename": "/shader/WpGl2DBasicPC.vs", "start": 3164164, "end": 3164604}, {"filename": "/shader/WpGl2DBasicPQ.fs", "start": 3164604, "end": 3165710}, {"filename": "/shader/WpGl2DBasicPQ.vs", "start": 3165710, "end": 3166150}, {"filename": "/shader/WpGl2DBasicPS.fs", "start": 3166150, "end": 3167256}, {"filename": "/shader/WpGl2DBasicPS.vs", "start": 3167256, "end": 3167745}, {"filename": "/shader/WpGl2DFull.fs", "start": 3167745, "end": 3168863}, {"filename": "/shader/WpGl2DFull.vs", "start": 3168863, "end": 3169207}, {"filename": "/shader/WpGl3DBasic.fs", "start": 3169207, "end": 3170222}, {"filename": "/shader/WpGl3DBasic.vs", "start": 3170222, "end": 3170834}, {"filename": "/shader/WpGl3DFullA.fs", "start": 3170834, "end": 3171861}, {"filename": "/shader/WpGl3DFullA.vs", "start": 3171861, "end": 3172473}, {"filename": "/shader/WpGl3DFullB.fs", "start": 3172473, "end": 3173486}, {"filename": "/shader/WpGl3DFullB.vs", "start": 3173486, "end": 3173947}, {"filename": "/shader/WpGlBlur.fs", "start": 3173947, "end": 3175111}, {"filename": "/shader/WpGlBlur.vs", "start": 3175111, "end": 3175298}, {"filename": "/shader/WpGlLinePC.fs", "start": 3175298, "end": 3176404}, {"filename": "/shader/WpGlLinePC.vs", "start": 3176404, "end": 3176896}, {"filename": "/shader/WpGlLinePL.fs", "start": 3176896, "end": 3178002}, {"filename": "/shader/WpGlLinePL.vs", "start": 3178002, "end": 3178431}, {"filename": "/shader/WpGlLinePP.fs", "start": 3178431, "end": 3179537}, {"filename": "/shader/WpGlLinePP.vs", "start": 3179537, "end": 3179966}, {"filename": "/shader/WpGlRotCube.fs", "start": 3179966, "end": 3180981}, {"filename": "/shader/WpGlRotCube.vs", "start": 3180981, "end": 3181431}, {"filename": "/shader/WpGlTexQuad.fs", "start": 3181431, "end": 3182626}, {"filename": "/shader/WpGlTexQuad.vs", "start": 3182626, "end": 3182982}], "remote_package_size": 3182982});
 
   })();
 
+// end include: C:\Users\tua.nk\AppData\Local\Temp\tmpef60r0ze.js
+// include: C:\Users\tua.nk\AppData\Local\Temp\tmpqu1yij5g.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['ENVIRONMENT_IS_PTHREAD'] || Module['$ww']) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  
+  // end include: C:\Users\tua.nk\AppData\Local\Temp\tmpqu1yij5g.js
+// include: C:\Users\tua.nk\AppData\Local\Temp\tmpfv35k55u.js
+
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach(function(task) {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  
+  // end include: C:\Users\tua.nk\AppData\Local\Temp\tmpfv35k55u.js
+
 
 // Sometimes an existing Module object exists with properties
 // meant to overwrite the default module functionality. Here
@@ -502,7 +508,7 @@ var err = Module['printErr'] || console.error.bind(console);
 // Merge back in the overrides
 Object.assign(Module, moduleOverrides);
 // Free the object hierarchy contained in the overrides, this lets the GC
-// reclaim data used e.g. in memoryInitializerRequest, which is a large typed array.
+// reclaim data used.
 moduleOverrides = null;
 checkIncomingModuleAPI();
 
@@ -545,8 +551,8 @@ var NODEFS = 'NODEFS is no longer included by default; build with -lnodefs.js';
 
 assert(!ENVIRONMENT_IS_SHELL, 'shell environment detected but not enabled at build time.  Add `shell` to `-sENVIRONMENT` to enable.');
 
-
 // end include: shell.js
+
 // include: preamble.js
 // === Preamble library stuff ===
 
@@ -642,6 +648,7 @@ var HEAP,
 /** @type {!Float64Array} */
   HEAPF64;
 
+// include: runtime_shared.js
 function updateMemoryViews() {
   var b = wasmMemory.buffer;
   Module['HEAP8'] = HEAP8 = new Int8Array(b);
@@ -653,7 +660,7 @@ function updateMemoryViews() {
   Module['HEAPF32'] = HEAPF32 = new Float32Array(b);
   Module['HEAPF64'] = HEAPF64 = new Float64Array(b);
 }
-
+// end include: runtime_shared.js
 assert(!Module['STACK_SIZE'], 'STACK_SIZE can no longer be set at runtime.  Use -sSTACK_SIZE at link time')
 
 assert(typeof Int32Array != 'undefined' && typeof Float64Array !== 'undefined' && Int32Array.prototype.subarray != undefined && Int32Array.prototype.set != undefined,
@@ -900,7 +907,7 @@ function abort(what) {
   // allows this in the wasm spec.
 
   // Suppress closure compiler warning here. Closure compiler's builtin extern
-  // defintion for WebAssembly.RuntimeError claims it takes no arguments even
+  // definition for WebAssembly.RuntimeError claims it takes no arguments even
   // though it can.
   // TODO(https://github.com/google/closure-compiler/pull/3913): Remove if/when upstream closure gets fixed.
   /** @suppress {checkTypes} */
@@ -1113,12 +1120,12 @@ var tempDouble;
 var tempI64;
 
 // include: runtime_debug.js
-function legacyModuleProp(prop, newName, incomming=true) {
+function legacyModuleProp(prop, newName, incoming=true) {
   if (!Object.getOwnPropertyDescriptor(Module, prop)) {
     Object.defineProperty(Module, prop, {
       configurable: true,
       get() {
-        let extra = incomming ? ' (the initial value can be provided on Module, but after startup the value is only looked for on a local variable of that name)' : '';
+        let extra = incoming ? ' (the initial value can be provided on Module, but after startup the value is only looked for on a local variable of that name)' : '';
         abort(`\`Module.${prop}\` has been replaced by \`${newName}\`` + extra);
 
       }
@@ -1184,7 +1191,7 @@ function missingLibrarySymbol(sym) {
       }
     });
   }
-  // Any symbol that is not included from the JS libary is also (by definition)
+  // Any symbol that is not included from the JS library is also (by definition)
   // not exported on the Module object.
   unexportedRuntimeSymbol(sym);
 }
@@ -1227,8 +1234,8 @@ var ASM_CONSTS = {
 function js_init_drag_and_drop() { function allocateUTF8(str) { var len = lengthBytesUTF8(str) + 1; var ptr = _malloc(len); stringToUTF8(str, ptr, len); return ptr; } document.addEventListener('dragover', function(event) { event.preventDefault(); var x = event.clientX; var y = event.clientY; var files = Array.from(event.dataTransfer.items).map(item => item.name).join(","); _FilesBeingDragged(x, y, allocateUTF8(files)); }); document.addEventListener('drop', function(event) { event.preventDefault(); var x = event.clientX; var y = event.clientY; var maxFileSize = _GetMaxFileSize(); Array.from(event.dataTransfer.items).forEach(item => { if (item.kind === 'file') { var file = item.getAsFile(); if (file.size > maxFileSize) { _FileDropped(x, y, 0, allocateUTF8(file.name), 1); } else { var reader = new FileReader(); reader.onload = function(event) { var fileData = new Uint8Array(event.target.result); var buffer = _malloc(fileData.length); HEAPU8.set(fileData, buffer); _FileDropped(x, y, buffer, allocateUTF8(file.name), 0); _free(buffer); }; reader.onerror = function(event) { _FileDropped(x, y, 0, allocateUTF8(file.name), 1); }; reader.readAsArrayBuffer(file); } } }); }); }
 function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!navigator.clipboard) { throw new Error('Clipboard API not supported'); } const text = await navigator.clipboard.readText(); let len = lengthBytesUTF8(text) + 1; let ptr = _malloc(len); stringToUTF8(text, ptr, len); return ptr; }); }
 
-
 // end include: preamble.js
+
 
   /** @constructor */
   function ExitStatus(status) {
@@ -2600,7 +2607,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         // we'll use the reliable test `err.name == "ErrnoError"` instead
         constructor(errno) {
           super(ERRNO_MESSAGES[errno]);
-          // TODO(sbc): Use the inline member delclaration syntax once we
+          // TODO(sbc): Use the inline member declaration syntax once we
           // support it in acorn and closure.
           this.name = 'ErrnoError';
           this.errno = errno;
@@ -2616,6 +2623,76 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
   },
   filesystems:null,
   syncFSRequests:0,
+  FSStream:class {
+        constructor() {
+          // TODO(https://github.com/emscripten-core/emscripten/issues/21414):
+          // Use inline field declarations.
+          this.shared = {};
+        }
+        get object() {
+          return this.node;
+        }
+        set object(val) {
+          this.node = val;
+        }
+        get isRead() {
+          return (this.flags & 2097155) !== 1;
+        }
+        get isWrite() {
+          return (this.flags & 2097155) !== 0;
+        }
+        get isAppend() {
+          return (this.flags & 1024);
+        }
+        get flags() {
+          return this.shared.flags;
+        }
+        set flags(val) {
+          this.shared.flags = val;
+        }
+        get position() {
+          return this.shared.position;
+        }
+        set position(val) {
+          this.shared.position = val;
+        }
+      },
+  FSNode:class {
+        constructor(parent, name, mode, rdev) {
+          if (!parent) {
+            parent = this;  // root node sets parent to itself
+          }
+          this.parent = parent;
+          this.mount = parent.mount;
+          this.mounted = null;
+          this.id = FS.nextInode++;
+          this.name = name;
+          this.mode = mode;
+          this.node_ops = {};
+          this.stream_ops = {};
+          this.rdev = rdev;
+          this.readMode = 292/*292*/ | 73/*73*/;
+          this.writeMode = 146/*146*/;
+        }
+        get read() {
+          return (this.mode & this.readMode) === this.readMode;
+        }
+        set read(val) {
+          val ? this.mode |= this.readMode : this.mode &= ~this.readMode;
+        }
+        get write() {
+          return (this.mode & this.writeMode) === this.writeMode;
+        }
+        set write(val) {
+          val ? this.mode |= this.writeMode : this.mode &= ~this.writeMode;
+        }
+        get isFolder() {
+          return FS.isDir(this.mode);
+        }
+        get isDevice() {
+          return FS.isChrdev(this.mode);
+        }
+      },
   lookupPath(path, opts = {}) {
         path = PATH_FS.resolve(path);
   
@@ -2861,44 +2938,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
       },
   getStream:(fd) => FS.streams[fd],
   createStream(stream, fd = -1) {
-        if (!FS.FSStream) {
-          FS.FSStream = /** @constructor */ function() {
-            this.shared = { };
-          };
-          FS.FSStream.prototype = {};
-          Object.defineProperties(FS.FSStream.prototype, {
-            object: {
-              /** @this {FS.FSStream} */
-              get() { return this.node; },
-              /** @this {FS.FSStream} */
-              set(val) { this.node = val; }
-            },
-            isRead: {
-              /** @this {FS.FSStream} */
-              get() { return (this.flags & 2097155) !== 1; }
-            },
-            isWrite: {
-              /** @this {FS.FSStream} */
-              get() { return (this.flags & 2097155) !== 0; }
-            },
-            isAppend: {
-              /** @this {FS.FSStream} */
-              get() { return (this.flags & 1024); }
-            },
-            flags: {
-              /** @this {FS.FSStream} */
-              get() { return this.shared.flags; },
-              /** @this {FS.FSStream} */
-              set(val) { this.shared.flags = val; },
-            },
-            position : {
-              /** @this {FS.FSStream} */
-              get() { return this.shared.position; },
-              /** @this {FS.FSStream} */
-              set(val) { this.shared.position = val; },
-            },
-          });
-        }
+  
         // clone it, so we can return an instance of FSStream
         stream = Object.assign(new FS.FSStream(), stream);
         if (fd == -1) {
@@ -2910,6 +2950,11 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
       },
   closeStream(fd) {
         FS.streams[fd] = null;
+      },
+  dupStream(origStream, fd = -1) {
+        var stream = FS.createStream(origStream, fd);
+        stream.stream_ops?.dup?.(stream);
+        return stream;
       },
   chrdev_stream_ops:{
   open(stream) {
@@ -3152,7 +3197,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         // parents must exist
         var lookup, old_dir, new_dir;
   
-        // let the errors from non existant directories percolate up
+        // let the errors from non existent directories percolate up
         lookup = FS.lookupPath(old_path, { parent: true });
         old_dir = lookup.node;
         lookup = FS.lookupPath(new_path, { parent: true });
@@ -3616,7 +3661,6 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         }
         return stream.stream_ops.msync(stream, buffer, offset, length, mmapFlags);
       },
-  munmap:(stream) => 0,
   ioctl(stream, cmd, arg) {
         if (!stream.stream_ops.ioctl) {
           throw new FS.ErrnoError(59);
@@ -3962,107 +4006,103 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         }
       },
   createLazyFile(parent, name, url, canRead, canWrite) {
-        // Lazy chunked Uint8Array (implements get and length from Uint8Array). Actual getting is abstracted away for eventual reuse.
-        /** @constructor */
-        function LazyUint8Array() {
-          this.lengthKnown = false;
-          this.chunks = []; // Loaded chunks. Index is the chunk number
-        }
-        LazyUint8Array.prototype.get = /** @this{Object} */ function LazyUint8Array_get(idx) {
-          if (idx > this.length-1 || idx < 0) {
-            return undefined;
+        // Lazy chunked Uint8Array (implements get and length from Uint8Array).
+        // Actual getting is abstracted away for eventual reuse.
+        class LazyUint8Array {
+          constructor() {
+            this.lengthKnown = false;
+            this.chunks = []; // Loaded chunks. Index is the chunk number
           }
-          var chunkOffset = idx % this.chunkSize;
-          var chunkNum = (idx / this.chunkSize)|0;
-          return this.getter(chunkNum)[chunkOffset];
-        };
-        LazyUint8Array.prototype.setDataGetter = function LazyUint8Array_setDataGetter(getter) {
-          this.getter = getter;
-        };
-        LazyUint8Array.prototype.cacheLength = function LazyUint8Array_cacheLength() {
-          // Find length
-          var xhr = new XMLHttpRequest();
-          xhr.open('HEAD', url, false);
-          xhr.send(null);
-          if (!(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304)) throw new Error("Couldn't load " + url + ". Status: " + xhr.status);
-          var datalength = Number(xhr.getResponseHeader("Content-length"));
-          var header;
-          var hasByteServing = (header = xhr.getResponseHeader("Accept-Ranges")) && header === "bytes";
-          var usesGzip = (header = xhr.getResponseHeader("Content-Encoding")) && header === "gzip";
-  
-          var chunkSize = 1024*1024; // Chunk size in bytes
-  
-          if (!hasByteServing) chunkSize = datalength;
-  
-          // Function to get a range from the remote URL.
-          var doXHR = (from, to) => {
-            if (from > to) throw new Error("invalid range (" + from + ", " + to + ") or no bytes requested!");
-            if (to > datalength-1) throw new Error("only " + datalength + " bytes available! programmer error!");
-  
-            // TODO: Use mozResponseArrayBuffer, responseStream, etc. if available.
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, false);
-            if (datalength !== chunkSize) xhr.setRequestHeader("Range", "bytes=" + from + "-" + to);
-  
-            // Some hints to the browser that we want binary data.
-            xhr.responseType = 'arraybuffer';
-            if (xhr.overrideMimeType) {
-              xhr.overrideMimeType('text/plain; charset=x-user-defined');
+          get(idx) {
+            if (idx > this.length-1 || idx < 0) {
+              return undefined;
             }
-  
+            var chunkOffset = idx % this.chunkSize;
+            var chunkNum = (idx / this.chunkSize)|0;
+            return this.getter(chunkNum)[chunkOffset];
+          }
+          setDataGetter(getter) {
+            this.getter = getter;
+          }
+          cacheLength() {
+            // Find length
+            var xhr = new XMLHttpRequest();
+            xhr.open('HEAD', url, false);
             xhr.send(null);
             if (!(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304)) throw new Error("Couldn't load " + url + ". Status: " + xhr.status);
-            if (xhr.response !== undefined) {
-              return new Uint8Array(/** @type{Array<number>} */(xhr.response || []));
-            }
-            return intArrayFromString(xhr.responseText || '', true);
-          };
-          var lazyArray = this;
-          lazyArray.setDataGetter((chunkNum) => {
-            var start = chunkNum * chunkSize;
-            var end = (chunkNum+1) * chunkSize - 1; // including this byte
-            end = Math.min(end, datalength-1); // if datalength-1 is selected, this is the last block
-            if (typeof lazyArray.chunks[chunkNum] == 'undefined') {
-              lazyArray.chunks[chunkNum] = doXHR(start, end);
-            }
-            if (typeof lazyArray.chunks[chunkNum] == 'undefined') throw new Error('doXHR failed!');
-            return lazyArray.chunks[chunkNum];
-          });
+            var datalength = Number(xhr.getResponseHeader("Content-length"));
+            var header;
+            var hasByteServing = (header = xhr.getResponseHeader("Accept-Ranges")) && header === "bytes";
+            var usesGzip = (header = xhr.getResponseHeader("Content-Encoding")) && header === "gzip";
   
-          if (usesGzip || !datalength) {
-            // if the server uses gzip or doesn't supply the length, we have to download the whole file to get the (uncompressed) length
-            chunkSize = datalength = 1; // this will force getter(0)/doXHR do download the whole file
-            datalength = this.getter(0).length;
-            chunkSize = datalength;
-            out("LazyFiles on gzip forces download of the whole file when length is accessed");
+            var chunkSize = 1024*1024; // Chunk size in bytes
+  
+            if (!hasByteServing) chunkSize = datalength;
+  
+            // Function to get a range from the remote URL.
+            var doXHR = (from, to) => {
+              if (from > to) throw new Error("invalid range (" + from + ", " + to + ") or no bytes requested!");
+              if (to > datalength-1) throw new Error("only " + datalength + " bytes available! programmer error!");
+  
+              // TODO: Use mozResponseArrayBuffer, responseStream, etc. if available.
+              var xhr = new XMLHttpRequest();
+              xhr.open('GET', url, false);
+              if (datalength !== chunkSize) xhr.setRequestHeader("Range", "bytes=" + from + "-" + to);
+  
+              // Some hints to the browser that we want binary data.
+              xhr.responseType = 'arraybuffer';
+              if (xhr.overrideMimeType) {
+                xhr.overrideMimeType('text/plain; charset=x-user-defined');
+              }
+  
+              xhr.send(null);
+              if (!(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304)) throw new Error("Couldn't load " + url + ". Status: " + xhr.status);
+              if (xhr.response !== undefined) {
+                return new Uint8Array(/** @type{Array<number>} */(xhr.response || []));
+              }
+              return intArrayFromString(xhr.responseText || '', true);
+            };
+            var lazyArray = this;
+            lazyArray.setDataGetter((chunkNum) => {
+              var start = chunkNum * chunkSize;
+              var end = (chunkNum+1) * chunkSize - 1; // including this byte
+              end = Math.min(end, datalength-1); // if datalength-1 is selected, this is the last block
+              if (typeof lazyArray.chunks[chunkNum] == 'undefined') {
+                lazyArray.chunks[chunkNum] = doXHR(start, end);
+              }
+              if (typeof lazyArray.chunks[chunkNum] == 'undefined') throw new Error('doXHR failed!');
+              return lazyArray.chunks[chunkNum];
+            });
+  
+            if (usesGzip || !datalength) {
+              // if the server uses gzip or doesn't supply the length, we have to download the whole file to get the (uncompressed) length
+              chunkSize = datalength = 1; // this will force getter(0)/doXHR do download the whole file
+              datalength = this.getter(0).length;
+              chunkSize = datalength;
+              out("LazyFiles on gzip forces download of the whole file when length is accessed");
+            }
+  
+            this._length = datalength;
+            this._chunkSize = chunkSize;
+            this.lengthKnown = true;
           }
+          get length() {
+            if (!this.lengthKnown) {
+              this.cacheLength();
+            }
+            return this._length;
+          }
+          get chunkSize() {
+            if (!this.lengthKnown) {
+              this.cacheLength();
+            }
+            return this._chunkSize;
+          }
+        }
   
-          this._length = datalength;
-          this._chunkSize = chunkSize;
-          this.lengthKnown = true;
-        };
         if (typeof XMLHttpRequest != 'undefined') {
           if (!ENVIRONMENT_IS_WORKER) throw 'Cannot do synchronous binary XHRs outside webworkers in modern browsers. Use --embed-file or --preload-file in emcc';
           var lazyArray = new LazyUint8Array();
-          Object.defineProperties(lazyArray, {
-            length: {
-              get: /** @this{Object} */ function() {
-                if (!this.lengthKnown) {
-                  this.cacheLength();
-                }
-                return this._length;
-              }
-            },
-            chunkSize: {
-              get: /** @this{Object} */ function() {
-                if (!this.lengthKnown) {
-                  this.cacheLength();
-                }
-                return this._chunkSize;
-              }
-            }
-          });
-  
           var properties = { isDevice: false, contents: lazyArray };
         } else {
           var properties = { isDevice: false, url: url };
@@ -4081,7 +4121,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         // Add a function that defers querying the file size until it is asked the first time.
         Object.defineProperties(node, {
           usedBytes: {
-            get: /** @this {FSNode} */ function() { return this.contents.length; }
+            get: function() { return this.contents.length; }
           }
         });
         // override each stream op with one that tries to force load the lazy file first
@@ -4238,7 +4278,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
             arg++;
           }
           var newStream;
-          newStream = FS.createStream(stream, arg);
+          newStream = FS.dupStream(stream, arg);
           return newStream.fd;
         }
         case 1:
@@ -4569,6 +4609,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
       return cString > 2 ? UTF8ToString(cString) : cString;
     };
   
+  /** @type {Object} */
   var specialHTMLTargets = [0, typeof document != 'undefined' ? document : 0, typeof window != 'undefined' ? window : 0];
   /** @suppress {duplicate } */
   var findEventTarget = (target) => {
@@ -4659,7 +4700,6 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
      */
   var setMainLoop = (browserIterationFunc, fps, simulateInfiniteLoop, arg, noSetTiming) => {
       assert(!Browser.mainLoop.func, 'emscripten_set_main_loop: there can only be one main loop function at once: call emscripten_cancel_main_loop to cancel the previous one before setting a new one with different parameters.');
-  
       Browser.mainLoop.func = browserIterationFunc;
       Browser.mainLoop.arg = arg;
   
@@ -5090,7 +5130,6 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
   
         if (setInModule) {
           if (!useWebGL) assert(typeof GLctx == 'undefined', 'cannot set in module if GLctx is used, but we are a non-GL context that would replace it');
-  
           Module.ctx = ctx;
           if (useWebGL) GL.makeContextCurrent(contextHandle);
           Module.useWebGL = useWebGL;
@@ -5338,7 +5377,7 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
             Browser.mouseX = SDL.mouseX + Browser.mouseMovementX;
             Browser.mouseY = SDL.mouseY + Browser.mouseMovementY;
           } else {
-            // just add the mouse delta to the current absolut mouse position
+            // just add the mouse delta to the current absolute mouse position
             // FIXME: ideally this should be clamped against the canvas size and zero
             Browser.mouseX += Browser.mouseMovementX;
             Browser.mouseY += Browser.mouseMovementY;
@@ -5602,9 +5641,10 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
       HEAP32[idx + 12] = e["movementY"]
         ;
   
+      // Note: rect contains doubles (truncated to placate SAFE_HEAP, which is the same behaviour when writing to HEAP32 anyway)
       var rect = getBoundingClientRect(target);
-      HEAP32[idx + 13] = e.clientX - rect.left;
-      HEAP32[idx + 14] = e.clientY - rect.top;
+      HEAP32[idx + 13] = e.clientX - (rect.left | 0);
+      HEAP32[idx + 14] = e.clientY - (rect.top  | 0);
   
     };
   
@@ -5803,15 +5843,15 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
           return;
         }
         var uiEvent = JSEvents.uiEvent;
-        HEAP32[((uiEvent)>>2)] = e.detail;
+        HEAP32[((uiEvent)>>2)] = 0; // always zero for resize and scroll
         HEAP32[(((uiEvent)+(4))>>2)] = b.clientWidth;
         HEAP32[(((uiEvent)+(8))>>2)] = b.clientHeight;
         HEAP32[(((uiEvent)+(12))>>2)] = innerWidth;
         HEAP32[(((uiEvent)+(16))>>2)] = innerHeight;
         HEAP32[(((uiEvent)+(20))>>2)] = outerWidth;
         HEAP32[(((uiEvent)+(24))>>2)] = outerHeight;
-        HEAP32[(((uiEvent)+(28))>>2)] = pageXOffset;
-        HEAP32[(((uiEvent)+(32))>>2)] = pageYOffset;
+        HEAP32[(((uiEvent)+(28))>>2)] = pageXOffset | 0; // scroll offsets are float
+        HEAP32[(((uiEvent)+(32))>>2)] = pageYOffset | 0;
         if (((a1, a2, a3) => dynCall_iiii(callbackfunc, a1, a2, a3))(eventTypeId, uiEvent, userData)) e.preventDefault();
       };
   
@@ -6631,13 +6671,13 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         } else {
           GLctx.bufferData(target, size, usage);
         }
-      } else {
-        // N.b. here first form specifies a heap subarray, second form an integer
-        // size, so the ?: code here is polymorphic. It is advised to avoid
-        // randomly mixing both uses in calling code, to avoid any potential JS
-        // engine JIT issues.
-        GLctx.bufferData(target, data ? HEAPU8.subarray(data, data+size) : size, usage);
+        return;
       }
+      // N.b. here first form specifies a heap subarray, second form an integer
+      // size, so the ?: code here is polymorphic. It is advised to avoid
+      // randomly mixing both uses in calling code, to avoid any potential JS
+      // engine JIT issues.
+      GLctx.bufferData(target, data ? HEAPU8.subarray(data, data+size) : size, usage);
     };
 
   var _glCheckFramebufferStatus = (x0) => GLctx.checkFramebufferStatus(x0);
@@ -6755,8 +6795,8 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
         buf = GL.getTempIndexBuffer(size);
         GLctx.bindBuffer(0x8893 /*GL_ELEMENT_ARRAY_BUFFER*/, buf);
         GLctx.bufferSubData(0x8893 /*GL_ELEMENT_ARRAY_BUFFER*/,
-                                 0,
-                                 HEAPU8.subarray(indices, indices + size));
+                            0,
+                            HEAPU8.subarray(indices, indices + size));
         // the index is now 0
         indices = 0;
       }
@@ -7963,51 +8003,6 @@ function get_clipboard_text() { return Asyncify.handleAsync(async () => { if (!n
 
   var FS_unlink = (path) => FS.unlink(path);
 
-  var FSNode = /** @constructor */ function(parent, name, mode, rdev) {
-    if (!parent) {
-      parent = this;  // root node sets parent to itself
-    }
-    this.parent = parent;
-    this.mount = parent.mount;
-    this.mounted = null;
-    this.id = FS.nextInode++;
-    this.name = name;
-    this.mode = mode;
-    this.node_ops = {};
-    this.stream_ops = {};
-    this.rdev = rdev;
-  };
-  var readMode = 292/*292*/ | 73/*73*/;
-  var writeMode = 146/*146*/;
-  Object.defineProperties(FSNode.prototype, {
-   read: {
-    get: /** @this{FSNode} */function() {
-     return (this.mode & readMode) === readMode;
-    },
-    set: /** @this{FSNode} */function(val) {
-     val ? this.mode |= readMode : this.mode &= ~readMode;
-    }
-   },
-   write: {
-    get: /** @this{FSNode} */function() {
-     return (this.mode & writeMode) === writeMode;
-    },
-    set: /** @this{FSNode} */function(val) {
-     val ? this.mode |= writeMode : this.mode &= ~writeMode;
-    }
-   },
-   isFolder: {
-    get: /** @this{FSNode} */function() {
-     return FS.isDir(this.mode);
-    }
-   },
-   isDevice: {
-    get: /** @this{FSNode} */function() {
-     return FS.isChrdev(this.mode);
-    }
-   }
-  });
-  FS.FSNode = FSNode;
   FS.createPreloadedFile = FS_createPreloadedFile;
   FS.staticInit();Module["FS_createPath"] = FS.createPath;Module["FS_createDataFile"] = FS.createDataFile;Module["FS_createPreloadedFile"] = FS.createPreloadedFile;Module["FS_unlink"] = FS.unlink;Module["FS_createLazyFile"] = FS.createLazyFile;Module["FS_createDevice"] = FS.createDevice;;
 
@@ -8409,9 +8404,6 @@ var missingLibrarySymbols = [
   'emscriptenWebGLValidateMapBufferTarget',
   'writeGLArray',
   'registerWebGlEventCallback',
-  'SDL_unicode',
-  'SDL_ttfContext',
-  'SDL_audio',
   'emscriptenWebGLGetIndexed',
   'ALLOC_NORMAL',
   'ALLOC_STACK',
@@ -8722,5 +8714,5 @@ if (Module['noInitialRun']) shouldRunNow = false;
 
 run();
 
-
 // end include: postamble.js
+
